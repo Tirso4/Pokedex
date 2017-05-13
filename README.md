@@ -1,4 +1,11 @@
+
+
+
+
 # Pokedex
+
+![](https://github.com/Tirso4/Pokedex/blob/master/Pokebola-pokeball-png-0.png) 
+
 
 **1 ¿Que tipo de aplicación proponen construir a partir del conjunto de datos seleccionado?**   
 &nbsp;
