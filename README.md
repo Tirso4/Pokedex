@@ -4,7 +4,7 @@
 
 # Pokedex
 
-![](https://github.com/Tirso4/Pokedex/blob/master/Pokebola-pokeball-png-0.png) 
+![](https://github.com/Tirso4/Pokedex/blob/master/pokebola2.gif) 
 &nbsp;
 &nbsp;
 &nbsp;
