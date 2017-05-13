@@ -21,3 +21,9 @@
 **3 ¿Que pasos tienes que realizar o cubrir para poder consumir información a partir del conjunto de datos seleccionado?.**
 
 El usuario podrá seleccionar el numero del pokemon que vendría siendo su Id, otra manera seria por su nombre, y otra por la cual sea el Tipo de naturaleza del pokemon como eléctrico, fantasma.
+
+
+
+**4 Presentar un mockup donde ilustren el alcance de su aplicación y detallen cada uno de los elementos o funciones conforme dicho bosquejo. **
+
+![](https://github.com/Tirso4/Pokedex/blob/master/pokedex.png)
