@@ -19,3 +19,5 @@
 
 
 **3 ¿Que pasos tienes que realizar o cubrir para poder consumir información a partir del conjunto de datos seleccionado?.**
+
+El usuario podrá seleccionar el numero del pokemon que vendría siendo su Id, otra manera seria por su nombre, y otra por la cual sea el Tipo de naturaleza del pokemon como eléctrico, fantasma.
