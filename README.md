@@ -24,7 +24,6 @@ El usuario podrá seleccionar el numero del pokemon que vendría siendo su Id, o
 
 
 
-**4 Presentar un mockup donde ilustren el alcance de su aplicación y detallen cada uno de los elementos o funciones conforme dicho bosquejo.
 
 **DATA SET 
 
