@@ -1,0 +1,327 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"> </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+<script>
+
+    $(function() {
+
+   $.getJSON('pokemon.json', function(data) {
+       $.each(data.pokemon, function(a,f) {
+	   
+          var tblRow = "<tr>" + "<td>" + f.num + "</td>" +
+           "<td>" + f.name + "</td>" + "<td>" + f.type + "</td>" + "<td>" + f.weaknesses + "</td>" + "</tr>"
+           $(tblRow).appendTo("#userdata tbody");
+     
+	 
+	 });
+
+   });
+
+});
+</script>
+
+
+
+</head>
+
+<body >
+
+<div class="container" >
+  <div class="jumbotron" >
+ 
+    <table border="2px" class="table text-center">
+
+<tr>
+
+<td bgcolor="#9D59E1">
+
+<a href="#" id="psychic">Psiquico</a>
+</td>
+
+<td bgcolor="#DCD081">
+
+<a href="#" id="normal">Normal</a>
+</td>
+
+<td bgcolor="#C44F2F">
+
+<a href="#" id="fire">Fuego</a>
+</td>
+
+<td bgcolor="#2FC4B7">
+
+<a href="#" id="water">Agua</a>
+</td>
+
+<td bgcolor="#FAE900">
+
+<a href="#" id="electric">Electrico</a>
+</td>
+
+</tr>
+
+
+<tr>
+<td bgcolor="#34BF77">
+<a href="#" id="grass">Planta</a>
+</td>
+
+<td bgcolor="#FCA40B">
+
+<a href="#" id="fighting">Luchador</a>
+</td>
+
+<td bgcolor="#7C5004">
+
+<a href="#" id="ground">Tierra</a>
+</td>
+
+<td bgcolor="#61368D1">
+
+<a href="#" id="poison">Veneno</a>
+
+</td>
+
+<td bgcolor="#04FC521">
+
+<a href="#" id="bug">Bicho</a>
+</td>
+</tr>
+</table>
+
+	  
+
+  </div>
+ </div> 
+  
+
+<div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2" align="center">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+</div>
+
+<br/><br/>
+
+<div class="row">
+ <div class="col-sm-4">
+  <table id= "userdata2" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+
+
+
+</div>
+
+<div class="col-sm-4">
+
+
+   <table id= "userdata3" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+
+</div>
+
+
+<div class="col-sm-4">
+
+
+   <table id= "userdata4" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+
+<br/>
+
+
+
+<div class="row">
+ <div class="col-sm-4">
+
+   <table id= "userdata5" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+<div class="col-sm-4">
+
+
+   <table id= "userdata6" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+
+<div class="col-sm-4">
+
+
+   <table id= "userdata7" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+
+<br/>
+
+
+<div class="row">
+ <div class="col-sm-4">
+
+
+   <table id= "userdata8" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+<div class="col-sm-4">
+
+
+   <table id= "userdata9" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+
+<div class="col-sm-4">
+
+   <table id= "userdata10" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+</div>
+
+<br/>
+
+
+<div class="row">
+ <div class="col-sm-4">
+
+
+   <table id= "userdata11" border="2">
+  <thead>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Debilidad</th>
+        </thead>
+      <tbody>
+
+</tbody>
+</table>
+</div>
+
+
+</div>
+
+   
+
+
+
+<br/>
+
+</body>
+
+</html>
