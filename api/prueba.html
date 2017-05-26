@@ -15,8 +15,9 @@
    $.getJSON('pokemon.json', function(data) {
        $.each(data.pokemon, function(a,f) {
 	   
-          var tblRow = "<tr>" + "<td>" + f.num + "</td>" +
-           "<td>" + f.name + "</td>" + "<td>" + f.type + "</td>" + "<td>" + f.weaknesses + "</td>" + "</tr>"
+         var tblRow = "<tr>" + "<td>" + f.num + "</td>" +
+           "<td>" + f.name + "</td>"  + "<td>" + f.type + "</td>" + "<td>" + f.weaknesses + "</td>" 
++ "<td>" + f.candy + "</td>" +  "</tr>"
            $(tblRow).appendTo("#userdata tbody");
      
 	 
@@ -110,6 +111,8 @@
             <th>Nombre</th>
             <th>Tipo</th>
             <th>Debilidad</th>
+<th>Dulces </th>
+
         </thead>
       <tbody>
 
