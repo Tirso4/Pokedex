@@ -32,4 +32,4 @@ https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 
 &nbsp;
 &nbsp;
-![](https://github.com/Tirso4/Pokedex/blob/master/pokedex.png)
+![](https://github.com/Tirso4/Pokedex/blob/master/dibujo.png)
